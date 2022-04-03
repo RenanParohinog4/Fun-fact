@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+/* ----Navbar style----- */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 550px;
+    height: 91px;
+    background: #21222A;
+    padding: 0 1rem;
+}
+.logo-text{
+    color: #61DAFB;
+    font-size: 1.3rem;
+}
+.logo-section > img{
+    width: 40px;
+}
+.title{
+    color: #DEEBF8;
+    font-size: 16px;
+}
+.title,.logo-text{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    line-height: 19px;
+    text-align: right;
+}
+.logo-section{
+    display: flex;
+    align-items: center;
+}
+/* ----End of Navbar style----- */
+
+.Main-Content{
+    width: 550px;
+    height: 459px;
+    background-color:#282D35;
+    position: static;
+}
+.Main-Content > h1{
+    font-weight: 700;
+    font-size: 39.06px;
+    color: #FFFFFF;
+    line-height: 47.27px;
+
+    margin: 57px 99px 46px 27px;
+}
+.Main-Content ul{
+    margin: 0 86px 125px 74px;
+}
+.Main-Content ul > li{
+    margin-bottom: 20.36px;
+    font-weight: 400;
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 19.36px;
+}
+.Main-Content ul {
+    list-style: none;
+  }
+.Main-Content ul li::before {
+    content: "\2022";
+    color:  #61DAFB;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+}
